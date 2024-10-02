@@ -1,0 +1,135 @@
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background-color: #6a9ab0;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #6a9ab0;
+  margin-right: 8px;
+}
+#logo-container {
+  display: flex;
+}
+header {
+  /* width: 100%; */
+  height: 60px;
+  background-color: #001f3f;
+  color: wheat;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav > ul {
+  list-style: none;
+  display: flex;
+}
+
+nav > ul > li {
+  margin: 0 40px;
+}
+
+nav > ul > li > a {
+  color: wheat;
+  text-decoration: none;
+}
+
+#hero-section {
+  display: flex;
+  margin-top: 84px;
+}
+.body-secttion {
+  border-top: 2px solid black;
+}
+
+#hero-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 60px;
+}
+#hero-content p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+#hero-image {
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin-top: 10px;
+  /* margin-left: 30px; */
+}
+
+#social-media-section img {
+  width: 32px;
+  height: 32px;
+  border-radius: 12px;
+  margin: 0 12px;
+}
+
+#social-media-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  margin-right: 25px;
+}
+.my-status {
+  display: flex;
+  margin-top: 20px;
+  word-spacing: 3px;
+}
+.body-container {
+  width: fit-content;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+}
+.body-container > div {
+  background-color: #f8c471;
+  padding: 2px;
+  border-radius: 20px;
+}
+.section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+#image {
+  width: 350px;
+  height: 200px;
+  object-fit: contain;
+  margin: 0 10vh;
+}
+.case-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+}
+.box {
+  flex-direction: row;
+  /* width: 1200px;
+    height: 300px; */
+  border-radius: 15px;
+  border: 1px solid black;
+  background-color: wheat;
+  row-gap: 1px;
+  box-shadow: 10px 10px 10px gray;
+  margin: 5px;
+  padding: 5px;
+}
